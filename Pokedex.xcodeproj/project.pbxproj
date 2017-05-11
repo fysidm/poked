@@ -15,6 +15,7 @@
 		7B2C5F8E1EC35B0800E40601 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C5F8D1EC35B0800E40601 /* pokemon.csv */; };
 		7B2C5F911EC35E2800E40601 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C5F901EC35E2800E40601 /* Pokemon.swift */; };
 		7B2C5F941EC43D5A00E40601 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C5F931EC43D5A00E40601 /* PokemonCell.swift */; };
+		7B2C5F981EC45A5700E40601 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C5F971EC45A5700E40601 /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7B2C5F8D1EC35B0800E40601 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		7B2C5F901EC35E2800E40601 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7B2C5F931EC43D5A00E40601 /* PokemonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		7B2C5F971EC45A5700E40601 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				7B2C5F821EC3551400E40601 /* Assets.xcassets */,
 				7B2C5F841EC3551400E40601 /* LaunchScreen.storyboard */,
 				7B2C5F871EC3551400E40601 /* Info.plist */,
+				7B2C5F971EC45A5700E40601 /* csv.swift */,
 				7B2C5F8D1EC35B0800E40601 /* pokemon.csv */,
 			);
 			path = Pokedex;
@@ -167,6 +170,7 @@
 				7B2C5F941EC43D5A00E40601 /* PokemonCell.swift in Sources */,
 				7B2C5F7C1EC3551400E40601 /* AppDelegate.swift in Sources */,
 				7B2C5F911EC35E2800E40601 /* Pokemon.swift in Sources */,
+				7B2C5F981EC45A5700E40601 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
