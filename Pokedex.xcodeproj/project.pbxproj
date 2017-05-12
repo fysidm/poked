@@ -19,6 +19,7 @@
 		7B2C5F9A1EC4613500E40601 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C5F991EC4613500E40601 /* pokemon.ttf */; };
 		7B2C5F9F1EC4639200E40601 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C5F9E1EC4639200E40601 /* music.mp3 */; };
 		7B2C5FA31EC4B8AE00E40601 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C5FA21EC4B8AE00E40601 /* DetailViewController.swift */; };
+		7BA5EA311EC5AF7A00062FC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA5EA301EC5AF7A00062FC4 /* Constants.swift */; };
 		F3193B54E02C37E99B9743A6 /* Pods_Pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8D05128A8798135E814D26 /* Pods_Pokedex.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		7B2C5F991EC4613500E40601 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		7B2C5F9E1EC4639200E40601 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		7B2C5FA21EC4B8AE00E40601 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7BA5EA301EC5AF7A00062FC4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				7B2C5F971EC45A5700E40601 /* csv.swift */,
+				7BA5EA301EC5AF7A00062FC4 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				7B2C5F941EC43D5A00E40601 /* PokemonCell.swift in Sources */,
 				7B2C5F7C1EC3551400E40601 /* AppDelegate.swift in Sources */,
 				7B2C5FA31EC4B8AE00E40601 /* DetailViewController.swift in Sources */,
+				7BA5EA311EC5AF7A00062FC4 /* Constants.swift in Sources */,
 				7B2C5F911EC35E2800E40601 /* Pokemon.swift in Sources */,
 				7B2C5F981EC45A5700E40601 /* csv.swift in Sources */,
 			);
@@ -449,6 +453,7 @@
 				7B2C5F8C1EC3551400E40601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
